@@ -1,6 +1,6 @@
 .promo
     min-height: 650px
-    background: url(../../img/promo_bg.jpg)center center/cover no-repeat
+    background: url(../img/promo_bg.jpg)center center/cover no-repeat
     padding: 21px 0 93px 0
 .header
     display: flex
@@ -29,7 +29,6 @@
         flex-direction: column
         align-items: flex-end
         .header__phone
-            font-family: 'MuseoModerno'
             font-style: normal
             font-weight: 700
             font-size: 18px
@@ -117,10 +116,18 @@
         display: flex
         justify-content: space-around
         vertical-align: top
-    &__icons
+    &_icons
         &__img
             display: block
             margin: 0 auto
+            &_animated
+                animation-name: heartbeat  
+                animation-duration: 0.9s 
+                animation-timing-function: ease
+                animation-iteration-count: infinite
+                &:hover
+                    animation-duration: 0.3s 
+                    
         &__title
             margin-top: 20px
             text-align: center
@@ -142,6 +149,8 @@
         font-size: 30px
         line-height: 30px
         text-align: center
-
+    
         
 
+
+            

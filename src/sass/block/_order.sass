@@ -1,0 +1,167 @@
+.order
+    position: fixed
+    display: none
+    background: rgba(0,0,0,.56)
+    top: 0
+    width: 100vw
+    height: 100vh
+    &-consultation
+        display: none
+        position: absolute
+        top: 50%
+        left: 50%
+        width: 382px
+        min-height: 402px
+        background:#F2F2F2
+        transform: translate(-50%, -50%)
+        text-align: center
+        padding: 35px 23px 40px 23px
+        &__close
+            position: absolute
+            top: 0
+            right: -40px    
+            line-height: 30px
+            font-size: 40px
+            cursor: pointer
+            color: #C70101
+        &__title
+            font-style: normal
+            font-weight: 700
+            font-size: 19px
+            line-height: 19px
+            margin-bottom: 10px
+        &__subtitle
+            font-style: normal
+            font-weight: 700
+            font-size: 14px
+            line-height: 14px
+        .feed-form  
+            width: 303px
+            min-height: 258px
+            margin: 0 auto
+            margin-top: 20px
+            input
+                display: block 
+                width: 100%
+                width: 303px
+                height: 54px
+                padding: 0 20px
+                margin-bottom: 12px
+                font-weight: 400
+                font-size: 14px
+                line-height: 66px
+                color: #4B4B4B
+                &:nth-child(3)
+                    margin-bottom: 17px
+            &__btn
+                width: 100%
+                width: 303px
+                height: 58px
+                background: #C70101
+                font-weight: 500
+                font-size: 16px
+                line-height: 25px
+                text-transform: uppercase
+                color: #fff 
+                border: none
+                border-radius: 8px
+                cursor: pointer
+    &-good
+        display: none
+        position: absolute
+        top: 50%
+        left: 50%
+        width: 382px
+        min-height: 402px
+        background:#F2F2F2
+        transform: translate(-50%, -50%)
+        text-align: center
+        padding: 35px 23px 40px 23px
+        &__close
+            position: absolute
+            top: 0
+            right: -40px    
+            line-height: 30px
+            font-size: 40px
+            cursor: pointer
+            color: #C70101
+        &__title
+            font-style: normal
+            font-weight: 700
+            font-size: 19px
+            line-height: 19px
+            margin-bottom: 10px
+        &__subtitle
+            font-style: normal
+            font-weight: 700
+            font-size: 14px
+            line-height: 14px
+        .feed-form  
+            width: 303px
+            min-height: 258px
+            margin: 0 auto
+            margin-top: 20px
+            input
+                display: block 
+                width: 100%
+                width: 303px
+                height: 54px
+                padding: 0 20px
+                margin-bottom: 12px
+                font-weight: 400
+                font-size: 14px
+                line-height: 66px
+                color: #4B4B4B
+                &:nth-child(3)
+                    margin-bottom: 17px
+            &__btn
+                width: 100%
+                width: 303px
+                height: 58px
+                background: #C70101
+                font-weight: 500
+                font-size: 16px
+                line-height: 25px
+                text-transform: uppercase
+                color: #fff 
+                border: none
+                border-radius: 8px
+                cursor: pointer
+    &-thanks
+        position: absolute 
+        display: none
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        width: 382px
+        min-height: 143px
+        background: #F2F2F2
+        text-align: center
+        padding: 35px 62px 34px 62px
+        &__close
+            position: absolute
+            top: 0
+            right: -40px    
+            line-height: 30px
+            font-size: 40px
+            cursor: pointer
+            color: #C70101
+        &__title
+            font-style: normal
+            font-weight: 700
+            font-size: 19px
+        &__subtitle
+            font-style: normal
+            font-weight: 700
+            font-size: 14px
+            line-height: 22px
+    .error
+        display: block
+        border: 1px solid #C70101
+    label.error
+        border: none
+        text-align: center
+#consultation,
+#buy,
+#thanks
+    display: none
